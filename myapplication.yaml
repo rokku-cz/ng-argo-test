@@ -12,3 +12,11 @@ spec:
     path: test
   destination:
     server: https://kubernetes.default.svc
+    namespace: ng-argo-test
+  syncPolicy:
+    syncOptions:
+    - CreateNamespace=true
+
+    automated:
+      selfHeal: true
+      prune: true
