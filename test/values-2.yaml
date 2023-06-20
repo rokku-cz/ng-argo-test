@@ -3,5 +3,5 @@ livenessProbe:
   initialDelaySeconds: 4
   periodSeconds: 10
   timeoutSeconds: 1
-  failureThreshold: 3
+  failureThreshold: 6
   successThreshold: 1
