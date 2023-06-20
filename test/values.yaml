@@ -1,0 +1,9 @@
+livenessProbe:
+  enabled: true
+  initialDelaySeconds: 3
+  periodSeconds: 10
+  timeoutSeconds: 1
+  failureThreshold: 3
+  successThreshold: 1
+image:
+  tag: v0.21.0
