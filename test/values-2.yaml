@@ -1,7 +1,3 @@
-livenessProbe:
-  enabled: true
-  initialDelaySeconds: 4
-  periodSeconds: 10
-  timeoutSeconds: 1
-  failureThreshold: 6
-  successThreshold: 1
+metrics:
+  service:
+    port: 8083
